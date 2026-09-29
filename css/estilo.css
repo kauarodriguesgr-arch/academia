@@ -1,0 +1,114 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: "Calibri", Helvetica, sans-serif;
+}
+
+header{
+    width: 100%;
+    background-color: #E28F2E;
+    position: fixed;
+
+}
+
+#logo{
+    margin-left: 15px;
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    float: left;
+}
+
+nav{
+    font-size: 19px;
+    height: 70px;
+}
+
+nav ul{ /*Todas as listas não ordanas no menu de navegação vão ter essas alterações*/
+ list-style-type: none;
+}
+
+nav ul li{
+    float: left;
+    margin left: 15px;
+    padding: 5px 10px;
+    font-weight: bold;
+    line-height: 3.3;
+    color: white;
+}
+
+nav ul .BOTAO:hover{
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+main{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+#banner{
+    padding-top: 70px;
+    margin-bottom: 10px;
+}
+
+article{
+    text-align: justify;
+}
+
+.fotohome{
+    float: left;
+    width: 50%;
+    text-align: center;
+    margin-bottom: 10px;
+
+    
+}
+
+footer{
+    width: 100%; /*largura */
+    background-color: #E28F2E;
+    text-align: center; /*centralizar o texto*/
+    color: white;
+    padding: 60px 0px;
+    clear: both;
+    }
+
+    /*SOBRE */
+
+    .fotosobre{
+        width: 20%;
+        height: 160px;
+        float: left;
+    }
+
+    .textosobre{
+        width: 80%;
+        height: 160px;
+        float: left;
+        margin-top: 20px;
+    }
+
+    /*CONTATO*/
+
+    #mapa{ /*Quando for uma DIV, começa-se com "#" (jogo da velha/sustenido) */
+        padding-top; 70px;
+        margin-bottom: 10px;
+    }
+
+    .info{ /*Quando for uma classe, começa-se com "." (ponto final) */
+        width: 50%;
+        height: auto;
+        margin: 50px 0px;
+
+    }
+
+    .galeria{
+        text-align: center;
+    }
+
+    .galeria img{
+        padding: 10px;
+    }
